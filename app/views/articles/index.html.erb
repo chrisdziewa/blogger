@@ -1,5 +1,9 @@
 <h1>All Articles</h1>
 
+<p style="margin-bottom: 10px;">
+	<%= link_to "View by category", tags_path %>
+</p>
+<br>
 <ul id="articles">
 	<% @articles.each do |article| %>
 		<li>

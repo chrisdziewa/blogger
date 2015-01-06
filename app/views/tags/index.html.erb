@@ -1,0 +1,12 @@
+<h1>Viewing tag categories</h1>
+
+<ul>
+	<% @tags.each do |tag| %>
+		<li>
+			<%= link_to tag.name, tag_path(tag) %> 
+			<%= link_to '| delete tag', tag_path(tag), method: :delete, data: { confirm: "Are you sure you want to delete this tag category?" } %>
+		</li>
+	<% end %>
+</ul>
+<br>
+<%= link_to "<< Back to Articles List", articles_path %>
