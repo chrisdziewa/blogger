@@ -1,0 +1,57 @@
+$primary_color: rgb(255, 250, 235);
+
+body {
+  background-color: $primary_color;
+  font: {
+    family: Verdana, Helvetica, Arial;
+    size: 14px;
+  }
+}
+
+a {
+  color: rgba(0,100,150,1);
+  img {
+    border: none;
+  }
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+#container {
+  width: 75%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
+.comment, 
+#comment_body,
+#comment_author_name {
+  background: rgba(215, 224, 149, .4);
+}
+
+.comment {
+  padding-left: 10px;
+  margin-top: 5px;
+  color: rgba(0,50,100,1);
+}
+
+li {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+  max-width: 700px;
+}
+
+#content {
+  clear: both;
+  padding-top: 20px;
+}
