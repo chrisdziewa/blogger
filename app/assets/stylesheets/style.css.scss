@@ -22,9 +22,7 @@ a {
 }
 
 #container {
-  width: 75%;
   margin: 0 auto;
-  background: #fff;
   padding: 20px 40px;
   border: solid 1px black;
   margin-top: 20px;
@@ -48,10 +46,17 @@ li {
 
 img {
   width: 100%;
-  max-width: 700px;
+  max-width: 500px;
 }
 
 #content {
   clear: both;
   padding-top: 20px;
+}
+
+//Table
+
+td,
+th {
+  padding: 10px;
 }
